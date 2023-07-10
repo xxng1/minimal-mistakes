@@ -42,7 +42,7 @@ author_profile: false
     <a href="/patent">특허실적</a>
 </div>
 
-- paper
+- Paper
     - <h4>2022</h4>
         
         하이퍼레저 패브릭과 비대칭키 암호화 기술을 결합한 건강정보 관리서버 - [멀티미디어학회논문지]

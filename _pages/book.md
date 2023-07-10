@@ -1,5 +1,5 @@
 ---
-title: "publications"
+title: "Publications"
 layout: categories
 permalink: /book/
 author_profile: false
@@ -29,7 +29,7 @@ author_profile: false
     <a href="/patent">특허실적</a>
 </div>
 
-- book
+- Book
 
     - <h4>2021</h4>
         

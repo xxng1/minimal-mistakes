@@ -1,5 +1,5 @@
 ---
-title: "publications"
+title: "Publications"
 layout: categories
 permalink: /academic/
 author_profile: false
@@ -30,7 +30,7 @@ author_profile: false
 </div>
 
 
-- academic
+- Academic
     - <h4>2021</h4>
         
         Development of Online Service for Brain Disease Prediction Using Machine Learning - [2021 International Conference on Information and Communication Technology Convergence]
