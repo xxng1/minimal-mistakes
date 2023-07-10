@@ -29,7 +29,7 @@ author_profile: false
     <a href="/patent">특허실적</a>
 </div>
 
-- 저서실적
+- book
 
     - <h4>2021</h4>
         

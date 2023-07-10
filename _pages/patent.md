@@ -29,7 +29,7 @@ author_profile: false
     <a href="/patent">특허실적</a>
 </div>
 
-- 특허실적
+- patent
     - <h4>2022</h4>
         
         긴급도를 고려한 멀티채널에서의 CCR문서 브로드캐스팅 방법 및 시스템(The Broadcasting Method and System of CCR Documents in Multi-channel Considering Urgency) - [가천대학교 산학협력단]
