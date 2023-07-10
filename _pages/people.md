@@ -6,24 +6,25 @@ author_profile: false
 sidebar_main : true
 ---
 <h2>Professor</h2>
-황희정 교수 HeeJoung Hwang
+<div class="row">
+    <div class="col-md-4">
+        <img src="/professor.jpeg" alt="Professor Photo" class="img-fluid" style="max-width: 300px; height: auto;">
+    </div>
+        <h3> HeeJoung Hwang</h3>
+        <ul>
+            <li>가천대학교 IT대학 컴퓨터공학과 교수</li>
+            <li>삼성 Associate Architect 인증 출제/자문/교육 위원</li>
+            <li>(사)융복합 지식학회 부회장</li>
+            <li>TTAPG-419표준화위원</li>
+            <li>hwanghj@gachon.ac.kr</li>
+        </ul>
+</div>
 
-- 가천대학교 IT대학 컴퓨터공학과 교수
-- 삼성 Associate Architect 인증 출제/자문/교육 위원
-- (사)융복합 지식학회 부회장
-- TTAPG-419표준화위원
-- hwanghj@gachon.ac.kr
+<h3>연구분야</h3>
+- Software engineering, Software architecture
+- Medical informatics, Health IT
+- Bio informatics
 
 ---
 
-
-- 연구분야
-    - Software engineering, Software architecture
-    - Medical informatics, Health IT
-    - Bio informatics
-- 강의분야
-    - 소프트웨어공학, Java, Web Programming, Python
-    - 짧굵배온라인강좌운영
-    - 인터넷: https://dinfree.com/
-    - 유튜브: https://youtube.dinfree.com
-    - 클래스101: https://class101.app/e/Dinfree_Java_class
+<h2>Student</h2>

@@ -16,3 +16,42 @@ author_profile: false
 - 한국Microsoft + 마곡 연구단지 프로젝트, 2011
 - 디지털병원 프로젝트 Medical Gateway, 2008 ~ 2014 - ETRI 공동연구 - 힐링 플랫폼, 2014 ~ 2017
 - ITRC 의료 빅데이터를 활용한 뇌질환 예측예방 기술개발 및 인력양성, 2017~
+
+<style>
+    header {
+        position: relative;
+    }
+    
+    .header-image {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .header-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: black;
+        z-index: 1;
+    }
+</style>
+
+<header data-type="background">
+    <div class="row">
+        <img src="/pj.png" alt="Example Image" class="header-image">
+    </div>
+</header>
+
+<style>
+    .small-text {
+        font-size: 14px;
+        color: gray;
+        text-align: center;
+    }
+</style>
+
+<div class="small-text">
+    <small> < OHDEP: Open Health Data Exchange Platform > </small>
+</div>

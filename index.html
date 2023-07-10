@@ -3,35 +3,41 @@ layout: categories
 author_profile: false
 ---
 
-<header data-type="background">
-    <div class="row">
-        <img src="screenshot.png" alt="Example Image">
-        <div class="header-text">Your text ㄴㄴㄴㄴㄴㄴhere</div>
-    </div>
-</header>
-
 <style>
+    header {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .header-image {
+        width: 100%;
+        height: 400px;
+        filter: blur(5px); 
+    }
+    
     .header-text {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 24px;
-        color: white;
+        color: black;
+        z-index: 1; 
     }
 </style>
+
+<header data-type="background">
+    <div class="row">
+        <img src="home.png" alt="Example Image" class="header-image">
+    </div>
+</header>
 
 <div class="container text-center">
     <br> <br>
-    <h2 class="thin">Welcome to CMALab!</h2>
+    <h2 class="thin">Welcome to SELab.</h2>
     <p class="text-muted">
-        Our lab investigates co-design of algorithm, software and hardware for artificial intelligence, especially, deep learning.
+        Our lab handles specialized technical areas such as Java, Spring Framework, Kubernetes, Docker, Cloud Native, 
+        <br>
+        and AI Serving for advanced software development.
     </p>
 </div>
-
-<style>
-    .thin {
-        background-color: gray;
-        padding: 10px;
-    }
-</style>
