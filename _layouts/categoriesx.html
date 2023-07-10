@@ -1,0 +1,28 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<h2>2023</h2>
+{% for post in site.posts %}
+  {% if post.date >= "2023-01-01" and post.date < "2024-01-01" %}
+    <p><strong>{{ post.title }}</strong><br />
+    {{ post.author }}, {{ post.conference }}, {{ post.date | date: "%B %Y" }}.</p>
+  {% endif %}
+{% endfor %}
+
+<h2>2022</h2>
+{% for post in site.posts %}
+  {% if post.date >= "2022-01-01" and post.date < "2023-01-01" %}
+    <p><strong>{{ post.title }}</strong><br />
+    {{ post.author }}, {{ post.conference }}, {{ post.date | date: "%B %Y" }}.</p>
+  {% endif %}
+{% endfor %}
